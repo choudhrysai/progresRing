@@ -1,0 +1,32 @@
+<!--
+  @File Name          : suggestiveAnswerItem.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 27-5-2020 17:30:15
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    27-5-2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <lightning-card class="cardStyle">
+        <p class="slds-p-horizontal_small">{answer.content}</p>
+        <div>
+            <div class="copyButton">
+                <lightning-button title="Copy" icon-name="utility:copy" onclick={copyToClipboard}
+                    class="slds-m-left_x-small">
+                </lightning-button>
+            </div>
+            <div>
+                <div class="progress-circle p33">
+                    <span>33%</span>
+                    <div class="left-half-clipper">
+                        <div class="first50-bar"></div>
+                        <div class="value-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

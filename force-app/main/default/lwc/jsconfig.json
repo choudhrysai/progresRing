@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/suggestiveAnswerItem": [
+                "suggestiveAnswerItem/suggestiveAnswerItem.js"
+            ],
+            "c/suggestiveAnswerList": [
+                "suggestiveAnswerList/suggestiveAnswerList.js"
+            ],
+            "c/progressCircle": [
+                "progressCircle/progressCircle.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
