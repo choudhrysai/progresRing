@@ -1,0 +1,8 @@
+.parentDiv {
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.cardStyle {
+    margin-bottom: .5vh;
+}

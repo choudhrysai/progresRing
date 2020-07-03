@@ -1,0 +1,19 @@
+.footerComponent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .5vh;
+}
+
+.progressCircle {
+  align-self: flex-start;
+  margin-left: 1vh;
+}
+
+.copyButton {
+  align-self: flex-end;
+  margin-right: 1vh;
+}
+
+p {
+  font-size: 1.2vh;
+}
